@@ -12,15 +12,15 @@
   <body>
     <div class="weather-app">
 <header>
-      <form class="search-form">
-        <input type="search" placeholder="Enter a city..." required  class="search-form-input"/>
+      <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a city..." required  class="search-form-input" id="search-form-input"/>
         <input type="button" value="Search" class="search-form-button"/>
       </form>
     </header>
         <main>
           <div class="weather-data-app">
             <div>
-            <h1 class="weather-app-city">Paris</h1>
+            <h1 class="weather-app-city" id="city">Paris</h1>
             <p class="weather-app-details">
               Monday 17:27, moderate rain
             </br> Humidity:<strong> 87%</strong>, Wind:<strong> 7.2km/h</strong> 
@@ -46,6 +46,6 @@
       </a>
     </footer>
     </div>
-    
+     <script src="src/index.js"></script>
   </body>
 </html>
