@@ -3,19 +3,92 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
-.roboto {
-  font-family: "Roboto", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+a {
+  color: #885df1;
+  font-weight: 500;
+  font-size: 15px;
 }
 
+header {
+  padding: 0px 0px 30px 0px;
+  border-bottom: 1px solid #f2f2f9;
+}
+
+main {
+  padding: 13px 0;
+}
+
+strong {
+  color: #fb4646;
+}
+
+footer {
+  border-top: 1px solid #f2f2f9;
+  text-align: center;
+  font-size: 16px;
+  padding: 30px 0 0 0;
+  color: rgba(70, 68, 68, 0.45);
+}
 .weather-app {
   background-color: white;
-  max-width: 550px;
-  margin: 70px auto;
+  max-width: 580px;
+  margin: 50px auto;
   box-shadow: 5px 5px 10px 2px rgba(224, 217, 217, 0.3);
   border-radius: 10px;
   padding: 35px 30px;
+}
+.search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 8px;
+  width: 420px;
+  padding: 19px;
+  font-size: 17px;
+}
+
+.search-form-button {
+  background-color: #885df1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 19px;
+  font-size: 17px;
+  margin-left: 3px;
+}
+
+.weather-data-app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-city {
+  margin: 12px 0 0 0;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.weather-app-details {
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(70, 68, 68, 0.4);
+  font-weight: 500;
+}
+.weather-app-temperature-container {
+  display: flex;
+}
+
+.weather-app-temperature {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.weather-app-icon {
+  font-size: 43px;
+  margin-top: 24px;
+  margin-right: 8px;
+}
+
+.weather-app-unit {
+  font-size: 25px;
+  margin-top: 21px;
 }
