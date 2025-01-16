@@ -83,12 +83,12 @@ footer {
 }
 
 .weather-app-icon {
-  font-size: 43px;
-  margin-top: 24px;
-  margin-right: 8px;
+  width: 88px;
+  height: 88px;
+  margin-top: 14px;
 }
 
 .weather-app-unit {
   font-size: 25px;
-  margin-top: 21px;
+  margin-top: 22px;
 }

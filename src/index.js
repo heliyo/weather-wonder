@@ -14,6 +14,7 @@ function refreshWeather(response) {
   humidityElement.innerHTML = `${response.data.temperature.humidity}% `;
   windSpeedElement.innerHTML = `${response.data.wind.speed} km/h `;
   timeElement.innerHTML = formatDeate(date);
+  iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
 }
 
 function formatDeate(date) {
