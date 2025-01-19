@@ -15,7 +15,7 @@ header {
 }
 
 main {
-  padding: 13px 0;
+  padding: 25px 0;
 }
 
 strong {
@@ -31,7 +31,7 @@ footer {
 }
 .weather-app {
   background-color: white;
-  max-width: 580px;
+  max-width: 550px;
   margin: 50px auto;
   box-shadow: 5px 5px 10px 2px rgba(224, 217, 217, 0.3);
   border-radius: 10px;
@@ -41,7 +41,7 @@ footer {
   background-color: #f9f7fe;
   border: none;
   border-radius: 8px;
-  width: 420px;
+  width: 80%;
   padding: 19px;
   font-size: 17px;
 }
@@ -102,18 +102,20 @@ footer {
   text-align: center;
   font-size: 18px;
   line-height: 25px;
-  margin-bottom: 18px;
+  margin-bottom: 15px;
   color: rgba(51, 48, 48, 0.4);
 }
 
 .weather-forecast-icon {
-  font-size: 25px;
-  text-align: center;
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
   text-align: center;
-  margin-top: 17px;
+  margin-top: 14px;
   display: flex;
   justify-content: center;
   text-align: center;
